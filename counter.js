@@ -1,7 +1,3 @@
-
-
-
-
 function numbersCallback() {
 
     const url = "https://corona.lmao.ninja/countries/morocco?fbclid=IwAR1Ct3lnf5ilzxcOpmeGiLSkjeD-59QzEGLtn3bIjoJP40t9SnA3DvmkHLk";
