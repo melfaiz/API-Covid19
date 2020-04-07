@@ -1,6 +1,5 @@
 module.exports = async function(app) {
 
-
     app.get('/country/:country', async (req, res) => {
 
         const scrapper = require('../classes/scrapper')
@@ -12,9 +11,8 @@ module.exports = async function(app) {
     })
 
     app.get('/',  (req, res) => {
-      res.send("COmmande introuvable")
-  })
-
+      res.send("Commande introuvable")
+    })
 
 
 }
