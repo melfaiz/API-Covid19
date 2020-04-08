@@ -11,7 +11,7 @@ module.exports = async function(app) {
     })
 
     app.get('/*',  (req, res) => {
-      res.send("<h1> Covid19 API </h1> How to use : url:port/country/country_name")
+      res.send("<h1> Covid19 API </h1> How to use : IP:PORT/country/country_name")
     })
 
 
