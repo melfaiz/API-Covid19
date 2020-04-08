@@ -10,8 +10,8 @@ module.exports = async function(app) {
         res.send(obj)
     })
 
-    app.get('/',  (req, res) => {
-      res.send("Commande introuvable")
+    app.get('/*',  (req, res) => {
+      res.send("<h1> Covid19 API </h1> How to use : url:port/country/country_name")
     })
 
 
